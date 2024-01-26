@@ -1,0 +1,64 @@
+.colorPickerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+}
+
+[id="red"]{
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+    padding: 50px;
+}
+[id="green"]{
+    background-color: green;
+    margin: 5px;
+    padding: 50px;
+}
+[id="blue"]{
+    background-color: blue;
+    margin: 5px;
+    padding: 50px;
+}
+.selected{
+
+    border: 5px solid black;
+
+}
+
+[id="button"]{
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.emptyBoxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+}
+[id="emptyBoxLeft"]{
+    background-color: grey;
+    margin: 5px;
+    padding: 50px;
+    box-shadow: 10px 01px 10px rgba(0, 0, 0, 0.521);
+}
+[id="emptyBoxRight"]{
+    background-color: grey;
+    margin: 5px;
+    padding: 50px;
+    box-shadow: 10px 01px 10px rgba(0, 0, 0, 0.521);
+}
+
+.colorRed{
+    background-color: rgba(255, 0, 0, 0.521);
+}
+
+.colorGreen{
+    background-color: rgba(0, 128, 0, 0.466);
+}
+
+.colorBlue{
+    background-color: rgba(0, 0, 255, 0.466);
+}
